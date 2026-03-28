@@ -1,11 +1,11 @@
 import Link from 'next/link'
 
 const solutions = [
-    { title: 'Data Science & Analytics', description: 'Transform raw data into actionable insights with BI dashboards, predictive models, and KPI frameworks.', href: '/solutions/data-analytics', icon: '📊' },
-    { title: 'AI & Machine Learning', description: 'Leverage predictive analytics, NLP, computer vision, and recommendation systems to automate decisions.', href: '/solutions/ai-ml', icon: '🤖' },
-    { title: 'Software Development', description: 'Build enterprise applications, web/mobile apps, and ERP customizations with modern architectures.', href: '/solutions/software-development', icon: '💻' },
-    { title: 'Integration & APIs', description: 'Connect your systems with data pipelines, API engineering, and cloud integrations.', href: '/solutions/integration-apis', icon: '🔗' },
-    { title: 'Automation & RPA', description: 'Streamline operations with intelligent workflows, RPA bots, and decision automation.', href: '/solutions/automation-rpa', icon: '⚡' },
+    { title: 'AI & Machine Learning', description: 'Leverage predictive analytics, NLP, computer vision, and recommendation systems to automate decisions.', href: '/solutions/ai-ml', icon: <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 h-9 text-primary-accent"><path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09l2.846.813-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" /></svg> },
+    { title: 'Data Science & Analytics', description: 'Transform raw data into actionable insights with BI dashboards, predictive models, and KPI frameworks.', href: '/solutions/data-analytics', icon: <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 h-9 text-primary-accent"><path strokeLinecap="round" strokeLinejoin="round" d="M3 13h2.25v8.25H3V13zM10.5 5.25h2.25v16.05h-2.25V5.25zM18 9h2.25v12.375H18V9z" /></svg> },
+    { title: 'Software Development', description: 'Build enterprise applications, web/mobile apps, and ERP customizations with modern architectures.', href: '/solutions/software-development', icon: <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 h-9 text-primary-accent"><path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /></svg> },
+    { title: 'Automation & RPA', description: 'Streamline operations with intelligent workflows, RPA bots, and decision automation.', href: '/solutions/automation-rpa', icon: <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 h-9 text-primary-accent"><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" /></svg> },
+    { title: 'Integration & APIs', description: 'Connect your systems with data pipelines, API engineering, and cloud integrations.', href: '/solutions/integration-apis', icon: <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-9 h-9 text-primary-accent"><path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" /></svg> },
 ]
 
 const useCases = [
@@ -66,13 +66,16 @@ export default function Home() {
                     <h2 className="mt-4">AI & Data Capabilities</h2>
                     <p>Comprehensive digital solutions from data strategy to production deployment</p>
                 </div>
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="flex flex-wrap justify-center gap-8">
                     {solutions.map((solution) => (
-                        <Link key={solution.title} href={solution.href} className="card group border-l-4 border-primary">
-                            <div className="text-4xl mb-4">{solution.icon}</div>
-                            <h3 className="font-heading font-bold text-xl mb-3">{solution.title}</h3>
-                            <p className="text-muted mb-4">{solution.description}</p>
-                            <span className="inline-flex items-center text-primary font-medium group-hover:translate-x-2 transition-transform">
+                        <Link key={solution.title} href={solution.href} className="card group w-full md:w-[calc(50%-2rem)] lg:w-[calc(33.333%-2rem)] border-t-4 border-transparent hover:border-primary-accent relative overflow-hidden transition-all duration-500 flex flex-col">
+                            <div className="absolute top-0 right-0 w-32 h-32 bg-primary-accent/5 rounded-full blur-2xl -mr-10 -mt-10 group-hover:bg-primary-accent/20 transition-all duration-500"></div>
+                            <div className="w-16 h-16 rounded-2xl bg-primary/5 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500 shadow-sm border border-primary/10">
+                                {solution.icon}
+                            </div>
+                            <h3 className="font-heading font-bold text-xl mb-3 text-foreground group-hover:text-primary transition-colors">{solution.title}</h3>
+                            <p className="text-muted mb-6 line-clamp-3">{solution.description}</p>
+                            <span className="inline-flex items-center text-primary font-medium group-hover:translate-x-2 transition-transform mt-auto">
                                 Learn More <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
                             </span>
                         </Link>
