@@ -1,0 +1,13 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/insights/page": "app/insights/page.js",
+  "/page": "app/page.js",
+  "/proof-of-concept/page": "app/proof-of-concept/page.js",
+  "/solutions/erpnext-erp/page": "app/solutions/erpnext-erp/page.js",
+  "/solutions/issabel-pbx/page": "app/solutions/issabel-pbx/page.js",
+  "/solutions/nestcloud/page": "app/solutions/nestcloud/page.js",
+  "/solutions/page": "app/solutions/page.js",
+  "/use-cases/page": "app/use-cases/page.js"
+}

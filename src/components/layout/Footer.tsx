@@ -8,6 +8,9 @@ const footerLinks = {
         { name: 'Software Development', href: '/solutions/software-development' },
         { name: 'Integration & APIs', href: '/solutions/integration-apis' },
         { name: 'Automation & RPA', href: '/solutions/automation-rpa' },
+        { name: 'ERPNext Implementation', href: '/solutions/erpnext-erp' },
+        { name: 'Issabel PBX Unified Comms', href: '/solutions/issabel-pbx' },
+        { name: 'NestCloud Infrastructure', href: '/solutions/nestcloud' },
     ],
     company: [
         { name: 'About Us', href: '/about' },

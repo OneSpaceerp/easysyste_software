@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/contact/page": "app/contact/page.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/insights/page": "app/insights/page.js",
+  "/page": "app/page.js",
+  "/proof-of-concept/page": "app/proof-of-concept/page.js",
+  "/solutions/ai-ml/page": "app/solutions/ai-ml/page.js",
+  "/solutions/automation-rpa/page": "app/solutions/automation-rpa/page.js",
+  "/solutions/data-analytics/page": "app/solutions/data-analytics/page.js",
+  "/solutions/integration-apis/page": "app/solutions/integration-apis/page.js",
+  "/solutions/page": "app/solutions/page.js",
+  "/solutions/software-development/page": "app/solutions/software-development/page.js",
+  "/use-cases/page": "app/use-cases/page.js"
+}

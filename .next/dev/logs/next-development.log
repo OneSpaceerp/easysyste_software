@@ -1,0 +1,90 @@
+[00:00:00.851] Server  LOG     ✓ Ready in 567ms
+[00:03:13.641] Server  LOG     ✓ Compiled in 329ms
+[00:03:15.527] Browser WARN    Image with src "/logo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:59.604] Browser WARN    Image with src "/logo.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:25.276] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:13:28.158] Server  LOG     ✓ Compiled in 66ms
+[00:13:29.483] Browser WARN    Image with src "/logo-light.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:13:29.483] Browser WARN    Image with src "/logo-cropped.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:14:15.295] Browser WARN    Image with src "/logo-cropped.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:14:15.295] Browser WARN    Image with src "/logo-light.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:09.823] Server  LOG     ✓ Compiled in 5.3s
+[00:26:10.330] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:26:46.970] Browser WARN    Image with src "/logo-cropped.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:26:46.970] Browser WARN    Image with src "/logo-light.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:32:33.228] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:50:20.510] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:50:20.513] Server  LOG     ✓ Compiled in 767ms
+[00:50:21.612] Server  LOG     ✓ Compiled in 245ms
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:22.488] Browser ERROR   uncaughtError: Error: Internal Next.js error: Router action dispatched before initialization.
+[00:50:49.086] Server  LOG     ✓ Compiled in 359ms
+[00:51:36.615] Server  LOG     ✓ Compiled in 201ms
+[00:51:38.847] Server  LOG     ✓ Compiled in 250ms
+[00:51:53.865] Server  LOG     ✓ Compiled in 113ms
+[00:53:29.730] Browser WARN    Image with src "/logo-cropped.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:29.730] Browser WARN    Image with src "/logo-light.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:53:36.431] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:58:50.680] Server  LOG     ✓ Compiled in 191ms
+[00:59:35.971] Server  LOG     ✓ Compiled in 231ms
+[01:02:25.813] Server  LOG     ✓ Compiled in 106ms
+[01:02:27.953] Server  LOG     ✓ Compiled in 99ms
+[01:04:41.284] Server  LOG     ✓ Compiled in 111ms
+[01:04:43.241] Server  LOG     ✓ Compiled in 82ms
+[01:11:59.416] Server  ERROR   ⨯ ReferenceError: Image is not defined
+[01:12:00.490] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[01:12:00.834] Server  LOG     ✓ Compiled in 142ms
+[01:12:26.787] Browser WARN    Image with src "/logo-cropped.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:26.787] Browser WARN    Image with src "/logo-light.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:29.609] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/illustrations/software_3d.png" "received" null
+[01:12:29.613] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/illustrations/automation_3d.png" "received" null
+[01:12:29.616] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/illustrations/integration_3d.png" "received" null
+[01:12:29.618] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/illustrations/data_analytics_3d.png" "received" null
+[01:12:29.621] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/illustrations/ai_ml_3d.png" "received" null
+[01:12:29.725] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/illustrations/erpnext_erp_3d.png" "received" null
+[01:12:29.852] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/illustrations/issabel_pbx_3d.png" "received" null
+[01:12:29.976] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/illustrations/nestcloud_3d.png" "received" null
+[01:13:52.046] Browser WARN    Image with src "/logo-cropped.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:13:52.046] Browser WARN    Image with src "/illustrations/data_analytics_3d.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:13:52.046] Browser WARN    Image with src "/logo-light.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:28.877] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/solutions/layout,_N_T_/solutions/integration-apis/layout,_N_T_/solutions/integration-apis/page,_N_T_/solutions/integration-apis"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/solutions/integration-apis/__PAGE__",
+    "/solutions/integration-apis",
+    "/solutions",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/apple-icon.png/route": "/apple-icon.png",
+  "/contact/page": "/contact",
+  "/icon.png/route": "/icon.png",
+  "/insights/page": "/insights",
+  "/page": "/",
+  "/proof-of-concept/page": "/proof-of-concept",
+  "/solutions/ai-ml/page": "/solutions/ai-ml",
+  "/solutions/automation-rpa/page": "/solutions/automation-rpa",
+  "/solutions/data-analytics/page": "/solutions/data-analytics",
+  "/solutions/integration-apis/page": "/solutions/integration-apis",
+  "/solutions/page": "/solutions",
+  "/solutions/software-development/page": "/solutions/software-development",
+  "/use-cases/page": "/use-cases"
+}

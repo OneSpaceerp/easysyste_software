@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export const metadata: Metadata = { title: 'AI & Data Solutions', description: 'Comprehensive AI, data analytics, and software solutions from Easy Systems.' }
 
@@ -9,6 +10,9 @@ const solutions = [
     { id: 'software', title: 'Software Development', description: 'Enterprise applications, web/mobile apps, ERP customizations, and CI/CD pipelines.', href: '/solutions/software-development', features: ['Web Applications', 'Mobile Apps', 'API Development', 'DevOps'] },
     { id: 'integration', title: 'Integration & APIs', description: 'Data pipelines, API engineering, cloud integrations, and event-driven systems.', href: '/solutions/integration-apis', features: ['API Engineering', 'Data Pipelines', 'Cloud Integration', 'ETL/ELT'] },
     { id: 'automation', title: 'Automation & RPA', description: 'Process automation, intelligent workflows, RPA bots, and decision automation.', href: '/solutions/automation-rpa', features: ['RPA Bots', 'Workflow Automation', 'Process Mining', 'Intelligent Automation'] },
+    { id: 'erpnext-erp', title: 'ERPNext Implementation', description: 'Fully managed, custom-tailored ERPNext deployments to centralize and automate your business operations.', href: '/solutions/erpnext-erp', features: ['Financial Accounting', 'HR & Payroll', 'Inventory & Manufacturing', 'Zero Licensing Fees'] },
+    { id: 'issabel-pbx', title: 'Issabel PBX Unified Comms', description: 'Enterprise-grade, cloud-hosted VoIP and unified communications to guarantee crystal-clear voice.', href: '/solutions/issabel-pbx', features: ['Advanced Call Routing', 'Unified Communications', 'Call Recording', 'Uncapped Scalability'] },
+    { id: 'nestcloud', title: 'NestCloud Infrastructure', description: 'The premier infrastructure service for cost-effective hosting, custom VPS, and managed ERP deployments.', href: '/solutions/nestcloud', features: ['Flexible VPS Infrastructure', 'Reliable Shared Hosting', 'Managed ERP Deployments', 'Optimized Performance'] },
 ]
 
 export default function SolutionsPage() {
@@ -30,12 +34,22 @@ export default function SolutionsPage() {
                                 <h2 className="text-3xl font-heading font-bold mb-4">{solution.title}</h2>
                                 <p className="text-muted text-lg mb-6">{solution.description}</p>
                                 <ul className="grid grid-cols-2 gap-3 mb-6">
-                                    {solution.features.map((f) => <li key={f} className="flex items-center text-sm"><svg className="w-4 h-4 text-primary mr-2" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>{f}</li>)}
+                                    {solution.features.map((f) => <li key={f} className="flex items-center text-sm"><svg className="w-4 h-4 text-primary mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>{f}</li>)}
                                 </ul>
                                 <Link href={solution.href} className="btn-primary">Learn More</Link>
                             </div>
-                            <div className={`bg-gradient-to-br from-primary/10 to-primary-accent/10 rounded-3xl p-12 flex items-center justify-center aspect-video ${i % 2 === 1 ? 'lg:order-1' : ''}`}>
-                                <span className="text-8xl">{['📊', '🤖', '💻', '🔗', '⚡'][i]}</span>
+                            <div className={`relative rounded-3xl p-2 md:p-4 aspect-video shadow-2xl overflow-hidden group border border-white/10 ${i % 2 === 1 ? 'lg:order-1' : ''}`}>
+                                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-primary-accent/10 to-transparent mix-blend-multiply opacity-50 group-hover:opacity-100 transition-opacity duration-500 z-10" />
+                                <div className="w-full h-full relative z-0 overflow-hidden rounded-2xl bg-white shadow-inner flex items-center justify-center">
+                                    <Image
+                                        src={`/illustrations/${solution.id.replace(/-/g, '_')}_3d.png`}
+                                        alt={`${solution.title} 3D Cinematic Illustration`}
+                                        fill
+                                        style={{ objectFit: 'cover' }}
+                                        className="transform group-hover:scale-110 transition-transform duration-700 ease-in-out"
+                                        sizes="(max-width: 768px) 100vw, 50vw"
+                                    />
+                                </div>
                             </div>
                         </div>
                     ))}
