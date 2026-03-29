@@ -49,7 +49,7 @@ export default function ContactPage() {
                             <button type="submit" disabled={isSubmitting} className="btn-primary w-full disabled:opacity-50">{isSubmitting ? 'Sending...' : 'Book Discovery Call'}</button>
                         </form>
                     )}
-                    <div className="mt-12 text-center text-muted"><p className="mb-2">General inquiries: <a href="mailto:info@eysmt.com" className="text-primary hover:underline">info@eysmt.com</a></p></div>
+                    <div className="mt-12 text-center text-muted"><p className="mb-2">General inquiries: <a href="mailto:info@easysystem.ai" className="text-primary hover:underline">info@easysystem.ai</a></p></div>
                 </div>
             </section>
         </>
